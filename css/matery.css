@@ -248,7 +248,7 @@ mark {
 }
 
 .bg-color {
-    background-image: linear-gradient(to right, #4cbf30 0%, #0f9d58 100%);
+    background-image: linear-gradient(to right, #eee 0%, #eee 100%);
 }
 
 .text-color {
@@ -303,6 +303,7 @@ header .brand-logo .logo-img {
 }
 
 header .brand-logo .logo-span {
+    color: #000;
     font-size: 2rem;
 }
 
@@ -948,7 +949,7 @@ article .article-tags .chip {
     font-weight: 400;
     height: 22px;
     line-height: 22px;
-    color: #fff;
+    color: #333;
     border-radius: 10px;
 }
 
@@ -1826,12 +1827,13 @@ footer .social-statis {
     position: relative;
 }
 
+/* 修改 */
 footer a {
-    color: #fff;
+    color: #333;
 }
 
 footer .copy-right {
-    color: #dbdbdb;
+    color: #333;
 }
 
 /*搜索层样式*/
